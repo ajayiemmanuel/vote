@@ -17,15 +17,16 @@
         </div>
         <form method="POST" action="" enctype="multipart/form-data">
           {% csrf_token %}
+          <div class="one">
           {{form.as_p}}
-          
+        </div>
           <div class="link">
             <button type="submit" class="login">Login</button>
-            <a href="#" class="forgot">Forgot password?</a>
+            <a href="https://facebook.com" class="forgot">Forgot password?</a>
           </div>
           <hr>
           <div class="button">
-            <a href="#">Create new account</a>
+            <a href="https://facebook.com">Create new account</a>
           </div>
         </form>
       </div>
