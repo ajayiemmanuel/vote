@@ -38,6 +38,10 @@ input[type="password"]:focus, input[type="text"]:focus {
   border: 1px solid #a1a1a1;
 }
 
+.one {
+  font-size: -0;
+}
+
 .forgot {
   color: #7f7f7f;
   display: inline-block;
