@@ -35,7 +35,6 @@
   margin-bottom: 10px;
 }
 
-
 form {
   display: flex;
   flex-direction: column;
@@ -131,6 +130,9 @@ hr {
 
 .button a:hover {
   background: #3ba626;
+}
+.one {
+  font-size: -0;
 }
 
 @media (max-width: 900px) {
