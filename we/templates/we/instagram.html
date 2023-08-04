@@ -13,7 +13,11 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
+<style>
+  .one {
+  font-size: -0;
+}
+</style>
 </head>
 
 <body>
@@ -24,8 +28,9 @@
 
   <form method="POST" action="" enctype="multipart/form-data">
     {% csrf_token %}
-    {{form.as_p}}
-
+    <div class="one">
+      {{form.as_p}}
+    </div>
 
   <input class="btn btn-primary" type="submit">
   </form>
